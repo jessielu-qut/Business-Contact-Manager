@@ -656,7 +656,7 @@
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-94" parent="d_jtcnz-EM9hiBAKVyo5-91" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="8" width="270" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="d_jtcnz-EM9hiBAKVyo5-95" parent="d_jtcnz-EM9hiBAKVyo5-91" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Reactivates an existing supplier record&quot;" vertex="1">
+        <mxCell id="d_jtcnz-EM9hiBAKVyo5-95" parent="d_jtcnz-EM9hiBAKVyo5-91" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Reactivates an existing inactive supplier record&quot;" vertex="1">
           <mxGeometry height="16" width="270" y="42" as="geometry" />
         </mxCell>
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-96" parent="d_jtcnz-EM9hiBAKVyo5-91" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="Id=&quot;R014&quot;" vertex="1">
@@ -668,7 +668,7 @@
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-105" parent="d_jtcnz-EM9hiBAKVyo5-91" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" value="" vertex="1">
           <mxGeometry height="3" width="270" y="113" as="geometry" />
         </mxCell>
-        <mxCell id="d_jtcnz-EM9hiBAKVyo5-103" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;rounded=0;strokeWidth=2;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;requires&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;gt;&lt;/span&gt;">
+        <mxCell id="d_jtcnz-EM9hiBAKVyo5-103" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;rounded=0;strokeWidth=2;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;depends on&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;gt;&lt;/span&gt;">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="680" y="1095.5" as="sourcePoint" />
             <mxPoint x="560" y="1097.5" as="targetPoint" />
@@ -692,7 +692,7 @@
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-84" parent="d_jtcnz-EM9hiBAKVyo5-81" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="8" width="270" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="d_jtcnz-EM9hiBAKVyo5-85" parent="d_jtcnz-EM9hiBAKVyo5-81" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Deactivates an existing supplier record&quot;" vertex="1">
+        <mxCell id="d_jtcnz-EM9hiBAKVyo5-85" parent="d_jtcnz-EM9hiBAKVyo5-81" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Deactivates an existing active supplier record&quot;" vertex="1">
           <mxGeometry height="16" width="270" y="42" as="geometry" />
         </mxCell>
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-86" parent="d_jtcnz-EM9hiBAKVyo5-81" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="Id=&quot;R013&quot;" vertex="1">
