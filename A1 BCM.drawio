@@ -223,7 +223,7 @@
           <mxGeometry height="26" width="270" y="74" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-115" parent="1" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" value="" vertex="1">
-          <mxGeometry height="100" width="270" x="820" y="690" as="geometry" />
+          <mxGeometry height="100" width="270" x="940" y="680" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-116" parent="EPqGoM1oohMyppAIDcFO-115" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry height="16" width="270" as="geometry" />
@@ -244,7 +244,7 @@
           <mxGeometry height="26" width="270" y="74" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-122" parent="1" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" value="" vertex="1">
-          <mxGeometry height="100" width="270" x="1130" y="860" as="geometry" />
+          <mxGeometry height="100" width="270" x="970" y="840" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-123" parent="EPqGoM1oohMyppAIDcFO-122" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry height="16" width="270" as="geometry" />
@@ -258,7 +258,7 @@
         <mxCell id="EPqGoM1oohMyppAIDcFO-126" parent="EPqGoM1oohMyppAIDcFO-122" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;List expiring and expired qualifications&quot;" vertex="1">
           <mxGeometry height="16" width="270" y="42" as="geometry" />
         </mxCell>
-        <mxCell id="EPqGoM1oohMyppAIDcFO-127" parent="EPqGoM1oohMyppAIDcFO-122" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="Id=&quot;R016&quot;" vertex="1">
+        <mxCell id="EPqGoM1oohMyppAIDcFO-127" parent="EPqGoM1oohMyppAIDcFO-122" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="Id=&quot;R018&quot;" vertex="1">
           <mxGeometry height="16" width="270" y="58" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-128" parent="EPqGoM1oohMyppAIDcFO-122" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" value="" vertex="1">
