@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="bWjl_VyAbvNUAuLcgisD">
-    <mxGraphModel dx="4606" dy="2638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3842" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -730,7 +730,7 @@
             <mxPoint x="698" y="413" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d_jtcnz-EM9hiBAKVyo5-125" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Procurement Officer&lt;/font&gt;" vertex="1">
+        <mxCell id="d_jtcnz-EM9hiBAKVyo5-125" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Procurement Officer&lt;/b&gt;&lt;br&gt;Submits supplier and qualification records&lt;/font&gt;" vertex="1">
           <mxGeometry height="172" width="90" x="-950" y="590" as="geometry" />
         </mxCell>
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-128" edge="1" parent="1" source="EPqGoM1oohMyppAIDcFO-1" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;rounded=0;strokeWidth=2;exitX=0.008;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;" target="d_jtcnz-EM9hiBAKVyo5-125" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;traces&amp;gt;&amp;gt;&lt;/font&gt;">
@@ -739,7 +739,7 @@
             <mxPoint x="-60" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d_jtcnz-EM9hiBAKVyo5-129" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin (Procurement Manager)" vertex="1">
+        <mxCell id="d_jtcnz-EM9hiBAKVyo5-129" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Admin (Procurement Manager)&lt;/b&gt;&lt;br&gt;Approves submissions and confirms qualification status" vertex="1">
           <mxGeometry height="172" width="90" x="-950" y="850" as="geometry" />
         </mxCell>
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-130" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;rounded=0;strokeWidth=2;exitX=0.008;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;" target="d_jtcnz-EM9hiBAKVyo5-129" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;traces&amp;gt;&amp;gt;&lt;/font&gt;">
