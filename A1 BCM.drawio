@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="bWjl_VyAbvNUAuLcgisD">
-    <mxGraphModel dx="3174" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2372" dy="1461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EPqGoM1oohMyppAIDcFO-1" parent="1" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=110;strokeWidth=2;align=center;" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:7px;text-align:left;&quot;&gt;&lt;b&gt;req&lt;/b&gt;  ReqDiagram&lt;/p&gt;" vertex="1">
+        <mxCell id="EPqGoM1oohMyppAIDcFO-1" parent="1" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=329.27;strokeWidth=2;align=center;" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:7px;text-align:left;&quot;&gt;&lt;b&gt;req&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;[Package] [Business Contact Manager Requirements]&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="1430" width="2430" x="-650" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-2" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;BusinessContactManager" vertex="1">
