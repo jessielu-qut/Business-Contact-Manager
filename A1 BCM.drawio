@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="bWjl_VyAbvNUAuLcgisD">
-    <mxGraphModel dx="3842" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2435" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,7 +171,7 @@
         <mxCell id="EPqGoM1oohMyppAIDcFO-68" parent="EPqGoM1oohMyppAIDcFO-65" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="8" width="280" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="EPqGoM1oohMyppAIDcFO-69" parent="EPqGoM1oohMyppAIDcFO-65" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Officer submits new supplier record, set multiple contacts labelled by role&quot;&quot;" vertex="1">
+        <mxCell id="EPqGoM1oohMyppAIDcFO-69" parent="EPqGoM1oohMyppAIDcFO-65" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Officer submits new supplier record&quot;" vertex="1">
           <mxGeometry height="16" width="280" y="42" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-70" parent="EPqGoM1oohMyppAIDcFO-65" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="Id=&quot;R009&quot;" vertex="1">
@@ -333,7 +333,7 @@
         <mxCell id="EPqGoM1oohMyppAIDcFO-151" parent="EPqGoM1oohMyppAIDcFO-150" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry height="16" width="330" as="geometry" />
         </mxCell>
-        <mxCell id="EPqGoM1oohMyppAIDcFO-152" parent="EPqGoM1oohMyppAIDcFO-150" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" value="Performance" vertex="1">
+        <mxCell id="EPqGoM1oohMyppAIDcFO-152" parent="EPqGoM1oohMyppAIDcFO-150" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" value="Data Consistency" vertex="1">
           <mxGeometry height="18" width="330" y="16" as="geometry" />
         </mxCell>
         <mxCell id="EPqGoM1oohMyppAIDcFO-153" parent="EPqGoM1oohMyppAIDcFO-150" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
@@ -600,7 +600,7 @@
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-68" parent="d_jtcnz-EM9hiBAKVyo5-65" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="8" width="230" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="d_jtcnz-EM9hiBAKVyo5-69" parent="d_jtcnz-EM9hiBAKVyo5-65" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Display Supplier information and update timestamp&quot;" vertex="1">
+        <mxCell id="d_jtcnz-EM9hiBAKVyo5-69" parent="d_jtcnz-EM9hiBAKVyo5-65" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="text=&quot;Display Supplier information including last updated timestamp&quot;" vertex="1">
           <mxGeometry height="18" width="230" y="42" as="geometry" />
         </mxCell>
         <mxCell id="d_jtcnz-EM9hiBAKVyo5-70" parent="d_jtcnz-EM9hiBAKVyo5-65" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" value="Id=&quot;R011&quot;" vertex="1">
