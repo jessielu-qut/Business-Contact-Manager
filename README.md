@@ -1,28 +1,41 @@
-**Task Manager Application Overview:The task manager application is designed to help users efficiently manage their tasks and responsibilities by providing a user-friendly interface for creating, viewing, updating, and deleting tasks. It includes essential features such as secure user authentication, allowing individuals to sign up and log in to their accounts, as well as profile management to update personal information. With built-in validation such as input field validation and email validation, the application ensures a seamless user experience while enhancing productivity and organization in both personal and professional settings. **
+# Business Contact Manager
 
-**This apps **contain** the following features:**
+IFN636 Assessment 1 - Business Contact Manager
 
-* Signup
-* Login
-* Logout
-* Update profile
-* Add tasks
-* View tasks
-* Update tasks
-* Delete tasks
+A supplier contact and qualification management system for procurement teams, addressing the problem of outdated supplier contact information and unclear contact responsibilities.
 
-**This **app**lication** is**almost **a** precompiled** app**. However, students will develop some features,**such as adding tasks, viewing tasks, updating tasks, and **deleting** tasks**. **Students** will interact with GitHub when they develop the features.**
+## Tech Stack
 
----
+- Frontend: React.js
+- Backend: Node.js / Express
+- Database: MongoDB Atlas
+- Deployment: AWS EC2
 
-**Prerequisite:** Please install the following software and create account in following web tools** **
+## Current Progress
 
-* **Nodejs [**[https://nodejs.org/en](https://nodejs.org/en)]** **
-* **Git [**[https://git-scm.com/](https://git-scm.com/)]** **
-* **VS code editor** [[https://code.visualstudio.com/](https://code.visualstudio.com/)]** **
-* **MongoDB Account** [[https://account.mongodb.com/account/login](https://account.mongodb.com/account/login)]** - In tutorial, we have also showed how can you create account and database: follow step number 2.**
-* **GitHub Account** [[https://github.com/signup?source=login](https://github.com/signup?source=login)]** **
+- Requirements, backlog, and Jira project management completed
+- Figma high-fidelity and low-fidelity prototypes completed (Admin and Officer flows)
+- Backend API in development (Supplier submission, approval, and role-based access control)
+- Frontend integration and EC2 deployment pending
 
----
+## Prerequisite
 
-[![Backend CI](https://github.com/rajuiit/taskmanager_aws_setup/actions/workflows/ci.yml/badge.svg)](https://github.com/rajuiit/taskmanager_aws_setup/actions/workflows/ci.yml)
+Please install the following software and create accounts on the following web tools:
+
+- Node.js [https://nodejs.org/en]
+- Git [https://git-scm.com/]
+- VS Code editor [https://code.visualstudio.com/]
+- MongoDB Account [https://account.mongodb.com/account/login]
+- GitHub Account [https://github.com/signup?source=login]
+
+## Setup
+
+(To be completed)
+
+## Known Limitations
+
+(To be completed)
+
+## Deployment
+
+(To be completed after EC2 deployment)
