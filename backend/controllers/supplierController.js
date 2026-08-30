@@ -16,9 +16,11 @@ const createSupplier = async (req, res) => {
     }
 };
 
-const getActiveSuppliers = async (req, res) => {
+const getSuppliers = async (req, res) => {
     try {
-        const suppliers = await Supplier.find({ status: 'Active' });
+        const suppliers = await Supplier.find({
+            status: { $in: ['Active', 'Inactive', 'Rejected'] }
+        });
         res.json(suppliers);
     } catch (error) {
         res.status(500).json({ message: error.message });
@@ -129,7 +131,7 @@ const reactivateSupplier = async (req, res) => {
 
 module.exports = {
     createSupplier,
-    getActiveSuppliers,
+    getSuppliers,
     getPendingSuppliers,
     searchSuppliers,
     getSupplierById,
