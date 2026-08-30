@@ -2,7 +2,7 @@
 const express = require('express');
 const {
     createSupplier,
-    getActiveSuppliers,
+    getSuppliers,
     getPendingSuppliers,
     searchSuppliers,
     getSupplierById,
@@ -15,7 +15,7 @@ const {
 const { protect, adminOnly } = require('../middleware/authMiddleware');
 const router = express.Router();
 
-router.get('/', protect, getActiveSuppliers);
+router.get('/', protect, getSuppliers);
 router.get('/pending', protect, adminOnly, getPendingSuppliers);
 router.get('/search', protect, searchSuppliers);
 router.get('/:id', protect, getSupplierById);
