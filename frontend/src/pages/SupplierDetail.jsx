@@ -175,10 +175,13 @@ const SupplierDetail = () => {
             formData
           );
 
+        setIsEditing(false);
+
         navigate(
           `/suppliers/${res.data._id}`
         );
-      } else {
+      }
+      else {
         await axiosInstance.put(
           `/api/suppliers/${id}`,
           formData
@@ -400,7 +403,7 @@ const SupplierDetail = () => {
                 <input
                   value={
                     contactDraft[
-                      field
+                    field
                     ]
                   }
                   onChange={(e) =>
@@ -420,15 +423,15 @@ const SupplierDetail = () => {
               {contactErrors[
                 field
               ] && (
-                <p className="ml-[78px] mt-1 text-xs text-red-600">
-                  *
-                  {
-                    contactErrors[
+                  <p className="ml-[78px] mt-1 text-xs text-red-600">
+                    *
+                    {
+                      contactErrors[
                       field
-                    ]
-                  }
-                </p>
-              )}
+                      ]
+                    }
+                  </p>
+                )}
             </div>
           ))}
         </div>
@@ -478,7 +481,7 @@ const SupplierDetail = () => {
             {status ===
               'Pending Approval' &&
               user?.role ===
-                'admin' &&
+              'admin' &&
               !isEditing && (
                 <>
                   <button
@@ -801,7 +804,7 @@ const SupplierDetail = () => {
                 {contacts.map(
                   (contact) =>
                     editingContactId ===
-                    contact._id ? (
+                      contact._id ? (
                       <div
                         key={
                           contact._id
@@ -820,11 +823,10 @@ const SupplierDetail = () => {
                       >
                         <div className="mb-3 flex items-start justify-between">
                           <p
-                            className={`flex items-center gap-2 font-bold ${
-                              contact.isMainContact
+                            className={`flex items-center gap-2 font-bold ${contact.isMainContact
                                 ? 'text-[#8A6C2D]'
                                 : 'text-gray-800'
-                            }`}
+                              }`}
                           >
                             {contact.isMainContact && (
                               <span className="text-xl text-yellow-600">
@@ -892,7 +894,7 @@ const SupplierDetail = () => {
                 )}
 
                 {editingContactId ===
-                'new' ? (
+                  'new' ? (
                   renderContactForm()
                 ) : (
                   <button

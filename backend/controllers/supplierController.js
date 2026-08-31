@@ -5,11 +5,12 @@ const createSupplier = async (req, res) => {
     const { companyName, address, phoneNumber } = req.body;
     try {
         const supplier = await Supplier.create({
-            companyName,
-            address,
-            phoneNumber,
-            createdBy: req.user.id,
-        });
+        companyName,
+        address,
+        phoneNumber,
+        status: req.user.role === 'admin' ? 'Active' : 'Pending Approval',
+        createdBy: req.user.id,
+    });
         res.status(201).json(supplier);
     } catch (error) {
         res.status(500).json({ message: error.message });
@@ -18,6 +19,7 @@ const createSupplier = async (req, res) => {
 
 const getSuppliers = async (req, res) => {
     try {
+        console.log('CREATE SUPPLIER USER ROLE:', req.user.role);
         const suppliers = await Supplier.find({
             status: { $in: ['Active', 'Inactive', 'Rejected'] }
         });
