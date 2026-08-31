@@ -8,6 +8,7 @@ const createSupplier = async (req, res) => {
             companyName,
             address,
             phoneNumber,
+            status: req.user.role === 'admin' ? 'Active' : 'Pending Approval',
             createdBy: req.user.id,
         });
         res.status(201).json(supplier);
@@ -29,7 +30,16 @@ const getSuppliers = async (req, res) => {
 
 const getPendingSuppliers = async (req, res) => {
     try {
-        const suppliers = await Supplier.find({ status: 'Pending Approval' });
+        const query =
+            req.user.role === 'admin'
+                ? { status: 'Pending Approval' }
+                : {
+                    status: 'Pending Approval',
+                    createdBy: req.user.id,
+                };
+
+        const suppliers = await Supplier.find(query);
+
         res.json(suppliers);
     } catch (error) {
         res.status(500).json({ message: error.message });

@@ -27,6 +27,7 @@ const SupplierDetail = () => {
 
   const [status, setStatus] = useState('');
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState('');
   const [isEditing, setIsEditing] =
     useState(isNew);
 
@@ -175,10 +176,19 @@ const SupplierDetail = () => {
             formData
           );
 
+        setIsEditing(false);
+
+        setSuccessMessage(
+          user?.role === 'admin'
+            ? 'Supplier created successfully and is now Active.'
+            : 'Supplier submitted for approval.'
+        );
+
         navigate(
           `/suppliers/${res.data._id}`
         );
-      } else {
+      }
+      else {
         await axiosInstance.put(
           `/api/suppliers/${id}`,
           formData
@@ -375,12 +385,24 @@ const SupplierDetail = () => {
               : 'Contact'}
           </button>
 
-          <button
-            onClick={saveContact}
-            className="text-xl font-bold text-green-700"
-          >
-            ✓
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => {
+                setEditingContactId(null);
+                setContactErrors({});
+              }}
+              className="text-sm font-semibold text-gray-500"
+            >
+              Cancel
+            </button>
+
+            <button
+              onClick={saveContact}
+              className="text-xl font-bold text-green-700"
+            >
+              ✓
+            </button>
+          </div>
         </div>
 
         <div className="space-y-2">
@@ -400,7 +422,7 @@ const SupplierDetail = () => {
                 <input
                   value={
                     contactDraft[
-                      field
+                    field
                     ]
                   }
                   onChange={(e) =>
@@ -420,15 +442,15 @@ const SupplierDetail = () => {
               {contactErrors[
                 field
               ] && (
-                <p className="ml-[78px] mt-1 text-xs text-red-600">
-                  *
-                  {
-                    contactErrors[
+                  <p className="ml-[78px] mt-1 text-xs text-red-600">
+                    *
+                    {
+                      contactErrors[
                       field
-                    ]
-                  }
-                </p>
-              )}
+                      ]
+                    }
+                  </p>
+                )}
             </div>
           ))}
         </div>
@@ -478,7 +500,7 @@ const SupplierDetail = () => {
             {status ===
               'Pending Approval' &&
               user?.role ===
-                'admin' &&
+              'admin' &&
               !isEditing && (
                 <>
                   <button
@@ -585,11 +607,19 @@ const SupplierDetail = () => {
                 rows={4}
               />
 
-              <div className="flex justify-end">
+              <div className="flex justify-end gap-3">
                 <button
-                  onClick={
-                    handleReject
-                  }
+                  onClick={() => {
+                    setShowRejectBox(false);
+                    setRejectReason('');
+                  }}
+                  className="rounded-xl bg-gray-200 px-6 py-2.5 font-semibold text-gray-700"
+                >
+                  Cancel
+                </button>
+
+                <button
+                  onClick={handleReject}
                   className="rounded-xl bg-black px-6 py-2.5 font-semibold text-white"
                 >
                   Send
@@ -600,12 +630,21 @@ const SupplierDetail = () => {
         )}
 
         <div className="rounded-2xl bg-[#F7F7F7] px-8 py-8 shadow-sm lg:px-14">
+          {successMessage && (
+            <div className="mb-6 rounded-xl bg-green-50 px-5 py-3 text-center text-sm font-semibold text-green-700">
+              {successMessage}
+            </div>
+          )}
           {!isNew && (
             <div className="relative mb-10 flex min-h-[42px] items-center justify-center">
               {status && (
-                <p className="text-center text-lg font-bold text-red-700">
-                  Status:{' '}
-                  {status}
+                <p
+                  className={`text-center text-lg font-bold ${status === 'Active'
+                    ? 'text-green-700'
+                    : 'text-red-700'
+                    }`}
+                >
+                  Status: {status}
                 </p>
               )}
 
@@ -801,7 +840,7 @@ const SupplierDetail = () => {
                 {contacts.map(
                   (contact) =>
                     editingContactId ===
-                    contact._id ? (
+                      contact._id ? (
                       <div
                         key={
                           contact._id
@@ -820,11 +859,10 @@ const SupplierDetail = () => {
                       >
                         <div className="mb-3 flex items-start justify-between">
                           <p
-                            className={`flex items-center gap-2 font-bold ${
-                              contact.isMainContact
-                                ? 'text-[#8A6C2D]'
-                                : 'text-gray-800'
-                            }`}
+                            className={`flex items-center gap-2 font-bold ${contact.isMainContact
+                              ? 'text-[#8A6C2D]'
+                              : 'text-gray-800'
+                              }`}
                           >
                             {contact.isMainContact && (
                               <span className="text-xl text-yellow-600">
@@ -892,7 +930,7 @@ const SupplierDetail = () => {
                 )}
 
                 {editingContactId ===
-                'new' ? (
+                  'new' ? (
                   renderContactForm()
                 ) : (
                   <button
