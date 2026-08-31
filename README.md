@@ -99,7 +99,7 @@ Deployment
 Platform: AWS EC2
 
 Live URL:
-To be updated after final EC2 deployment.
+http://54.253.182.29:3000
 
 Demo Accounts
 
