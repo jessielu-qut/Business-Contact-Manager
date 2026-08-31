@@ -27,6 +27,7 @@ const SupplierDetail = () => {
 
   const [status, setStatus] = useState('');
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState('');
   const [isEditing, setIsEditing] =
     useState(isNew);
 
@@ -176,6 +177,12 @@ const SupplierDetail = () => {
           );
 
         setIsEditing(false);
+
+        setSuccessMessage(
+          user?.role === 'admin'
+            ? 'Supplier created successfully and is now Active.'
+            : 'Supplier submitted for approval.'
+        );
 
         navigate(
           `/suppliers/${res.data._id}`
@@ -603,6 +610,11 @@ const SupplierDetail = () => {
         )}
 
         <div className="rounded-2xl bg-[#F7F7F7] px-8 py-8 shadow-sm lg:px-14">
+          {successMessage && (
+            <div className="mb-6 rounded-xl bg-green-50 px-5 py-3 text-center text-sm font-semibold text-green-700">
+              {successMessage}
+            </div>
+          )}
           {!isNew && (
             <div className="relative mb-10 flex min-h-[42px] items-center justify-center">
               {status && (
@@ -824,8 +836,8 @@ const SupplierDetail = () => {
                         <div className="mb-3 flex items-start justify-between">
                           <p
                             className={`flex items-center gap-2 font-bold ${contact.isMainContact
-                                ? 'text-[#8A6C2D]'
-                                : 'text-gray-800'
+                              ? 'text-[#8A6C2D]'
+                              : 'text-gray-800'
                               }`}
                           >
                             {contact.isMainContact && (
