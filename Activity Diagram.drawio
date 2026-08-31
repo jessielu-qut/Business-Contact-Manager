@@ -1,18 +1,18 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3Jcure8uVK0h4gaEdjAe">
-    <mxGraphModel dx="1337" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P7bDSWWXejchOtUjq03Q-58" parent="1" style="shape=table;childLayout=tableLayout;fixedHeader=1;startSize=30;collapsible=0;recursiveResize=0;expand=0;" value="Business Contact Manager Activity Diagram" vertex="1">
-          <mxGeometry height="1337" width="680" x="70" y="23" as="geometry" />
+          <mxGeometry height="1317" width="660" x="70" y="23" as="geometry" />
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-59" parent="P7bDSWWXejchOtUjq03Q-58" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=0;fixedHeader=1;collapsible=0;recursiveResize=0;expand=0;" value="" vertex="1">
-          <mxGeometry height="1307" width="680" y="30" as="geometry" />
+          <mxGeometry height="1287" width="660" y="30" as="geometry" />
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-60" parent="P7bDSWWXejchOtUjq03Q-59" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=30;collapsible=0;recursiveResize=0;expand=0;" value="Procurement Officer" vertex="1">
-          <mxGeometry height="1307" width="180" as="geometry">
-            <mxRectangle height="1307" width="180" as="alternateBounds" />
+          <mxGeometry height="1287" width="180" as="geometry">
+            <mxRectangle height="1287" width="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-2" edge="1" parent="P7bDSWWXejchOtUjq03Q-60" source="P7bDSWWXejchOtUjq03Q-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
@@ -33,8 +33,8 @@
           <mxGeometry height="60" width="112.5" x="20" y="358" as="geometry" />
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-61" parent="P7bDSWWXejchOtUjq03Q-59" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=30;collapsible=0;recursiveResize=0;expand=0;" value="System" vertex="1">
-          <mxGeometry height="1307" width="290" x="180" as="geometry">
-            <mxRectangle height="1307" width="290" as="alternateBounds" />
+          <mxGeometry height="1287" width="290" x="180" as="geometry">
+            <mxRectangle height="1287" width="290" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-66" parent="P7bDSWWXejchOtUjq03Q-61" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Authenticate user" vertex="1">
@@ -149,8 +149,8 @@
           <mxGeometry height="40" width="40" x="145" y="1215" as="geometry" />
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-62" parent="P7bDSWWXejchOtUjq03Q-59" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=30;collapsible=0;recursiveResize=0;expand=0;" value="Admin" vertex="1">
-          <mxGeometry height="1307" width="210" x="470" as="geometry">
-            <mxRectangle height="1307" width="210" as="alternateBounds" />
+          <mxGeometry height="1287" width="190" x="470" as="geometry">
+            <mxRectangle height="1287" width="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P7bDSWWXejchOtUjq03Q-155" parent="P7bDSWWXejchOtUjq03Q-62" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Open Pending Approval" vertex="1">
