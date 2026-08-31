@@ -16,7 +16,7 @@ const { protect, adminOnly } = require('../middleware/authMiddleware');
 const router = express.Router();
 
 router.get('/', protect, getSuppliers);
-router.get('/pending', protect, adminOnly, getPendingSuppliers);
+router.get('/pending', protect, getPendingSuppliers);
 router.get('/search', protect, searchSuppliers);
 router.get('/:id', protect, getSupplierById);
 
