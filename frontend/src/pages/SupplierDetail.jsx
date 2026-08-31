@@ -385,12 +385,24 @@ const SupplierDetail = () => {
               : 'Contact'}
           </button>
 
-          <button
-            onClick={saveContact}
-            className="text-xl font-bold text-green-700"
-          >
-            ✓
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => {
+                setEditingContactId(null);
+                setContactErrors({});
+              }}
+              className="text-sm font-semibold text-gray-500"
+            >
+              Cancel
+            </button>
+
+            <button
+              onClick={saveContact}
+              className="text-xl font-bold text-green-700"
+            >
+              ✓
+            </button>
+          </div>
         </div>
 
         <div className="space-y-2">
@@ -595,11 +607,19 @@ const SupplierDetail = () => {
                 rows={4}
               />
 
-              <div className="flex justify-end">
+              <div className="flex justify-end gap-3">
                 <button
-                  onClick={
-                    handleReject
-                  }
+                  onClick={() => {
+                    setShowRejectBox(false);
+                    setRejectReason('');
+                  }}
+                  className="rounded-xl bg-gray-200 px-6 py-2.5 font-semibold text-gray-700"
+                >
+                  Cancel
+                </button>
+
+                <button
+                  onClick={handleReject}
                   className="rounded-xl bg-black px-6 py-2.5 font-semibold text-white"
                 >
                   Send
@@ -618,9 +638,13 @@ const SupplierDetail = () => {
           {!isNew && (
             <div className="relative mb-10 flex min-h-[42px] items-center justify-center">
               {status && (
-                <p className="text-center text-lg font-bold text-red-700">
-                  Status:{' '}
-                  {status}
+                <p
+                  className={`text-center text-lg font-bold ${status === 'Active'
+                    ? 'text-green-700'
+                    : 'text-red-700'
+                    }`}
+                >
+                  Status: {status}
                 </p>
               )}
 
