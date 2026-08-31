@@ -19,7 +19,6 @@ const createSupplier = async (req, res) => {
 
 const getSuppliers = async (req, res) => {
     try {
-        console.log('CREATE SUPPLIER USER ROLE:', req.user.role);
         const suppliers = await Supplier.find({
             status: { $in: ['Active', 'Inactive', 'Rejected'] }
         });
